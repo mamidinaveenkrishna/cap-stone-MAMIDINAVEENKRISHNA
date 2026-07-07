@@ -1,0 +1,45 @@
+### ===========================
+### Admin Service
+### ===========================
+
+GET http://localhost:4004/admin/Vendors
+
+###
+
+GET http://localhost:4004/admin/Invoices
+
+###
+
+POST http://localhost:4004/admin/SyncVendors
+
+
+### ===========================
+### Vendor Manager Service
+### ===========================
+
+GET http://localhost:4004/vendor/Vendors
+
+###
+
+GET http://localhost:4004/vendor/Invoices
+
+
+### ===========================
+### Approver Service
+### ===========================
+
+GET http://localhost:4004/approver/Invoices
+
+
+### ===========================
+### Viewer Service
+### ===========================
+
+GET http://localhost:4004/viewer/Vendors
+
+###
+
+GET http://localhost:4004/viewer/Invoices
+
+###
+POST http://localhost:4004/admin/SyncVendors
